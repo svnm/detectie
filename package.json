@@ -1,0 +1,33 @@
+{
+  "name": "detectIe",
+  "version": "1.0.0",
+  "description": "A module to detect the IE browser version, returns false for non IE browsers",
+  "main": "detectIe.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenIseki/detectIe.git"
+  },
+  "keywords": [
+    "detect IE",
+    "browser version",
+    "test for IE",
+    "broswer-version",
+    "IEversion",
+    "IE version",
+    "detectIe",
+    "browser",
+    "IE",
+    "Edge",
+    "Internet Explorer"
+  ],
+  "author": "Steven Iseki",
+  "license": "MIT",
+  "homepage": "https://github.com/StevenIseki/detectIe.git",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  }
+}
