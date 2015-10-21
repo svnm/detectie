@@ -2,13 +2,13 @@ var assert = chai.assert,
     expect = chai.expect,
     should = chai.should();
 
-describe('detectIe()', function() {  
+describe('detectie()', function() {  
 
     it('should be false on non IE browsers', function() {
-      assert.equal(detectIe(), false);
+      assert.equal(detectie(), false);
     })
     
     it('should be true on IE browsers', function() {
-		assert.include(detectIe(), 'IE', 'should be true on IE');
+		assert.include(detectie(), 'IE', 'should be true on IE');
     })
 })

@@ -2,7 +2,7 @@
  * detect IE
  * returns version of IE or false, if browser is not Internet Explorer
  */
-var detectIe = function() {
+var detectie = function() {
     var ua = window.navigator.userAgent;
 
     var msie = ua.indexOf('MSIE ');
@@ -27,4 +27,4 @@ var detectIe = function() {
     return false;
 }
 
-module.exports = detectIe;
+module.exports = detectie;
