@@ -1,7 +1,8 @@
 var chai = require('chai');
-var assert = chai.assert,  
-    expect = chai.expect,
-    should = chai.should();
+var detectie = require('../detectie');
+var assert = chai.assert;
+var expect = chai.expect;
+var should = chai.should();
 
 describe('detectie()', function() {  
 
