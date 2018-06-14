@@ -2,8 +2,11 @@
  * detect IE
  * returns version of IE or false, if browser is not Internet Explorer
  */
-var detectie = function() {
-    var ua = window.navigator.userAgent;
+var detectie = function(win) {
+    if (!win) {
+        win = window;
+    }
+    var ua = win.navigator.userAgent;
 
     var msie = ua.indexOf('MSIE ');
     if (msie > 0) {
